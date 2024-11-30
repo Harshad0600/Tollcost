@@ -17,6 +17,7 @@ const InputForm = ({ onSubmit }) => {
           type="text"
           value={start}
           onChange={(e) => setStart(e.target.value)}
+          placeholder="Enter start location"
           className="w-full p-2 border rounded"
         />
       </label>
@@ -26,6 +27,7 @@ const InputForm = ({ onSubmit }) => {
           type="text"
           value={end}
           onChange={(e) => setEnd(e.target.value)}
+          placeholder="Enter end location"
           className="w-full p-2 border rounded"
         />
       </label>
